@@ -7,12 +7,10 @@
  * Date: 3/15
  */
 
-require_once(dirname(__FILE__) . '/../src/Example.php');
-
 /**
  * This is a example test class.
  */
-class ExampleTest extends PHPUnit_Framework_TestCase
+class ExampleTest extends \PHPUnit_Framework_TestCase
 {
 	/**
 	 * This is a example test method.

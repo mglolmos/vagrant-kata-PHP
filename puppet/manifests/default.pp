@@ -18,8 +18,8 @@ exec { 'composer':
 	require		=> [Package['php5'], Package['curl']]
 }
 
-exec { 'phpunit':
-	command			=> 'composer require phpunit/phpunit',
+exec { 'composer_install':
+	command			=> 'composer install',
 	cwd				=> '/kata',
 	environment		=> ["COMPOSER_HOME=/usr/bin"],
 	require			=> [Exec['composer']]
