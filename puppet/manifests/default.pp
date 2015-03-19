@@ -7,7 +7,7 @@ exec { 'apt-get_update':
 }
 
 package {
-	['php5', 'curl', 'git']:
+	['php5', 'curl']:
 		ensure		=> installed,
 		require		=> [Exec['apt-get_update']]
 }
