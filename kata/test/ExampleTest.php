@@ -4,7 +4,6 @@
  *
  * User: mglolmos
  * Email: mgl.olmos@gmail.com
- * Date: 3/15
  */
 
 /**
