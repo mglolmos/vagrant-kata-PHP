@@ -1,0 +1,3 @@
+.vagrant
+/kata/composer.lock
+/kata/vendor
