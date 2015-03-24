@@ -31,17 +31,12 @@ Virtual machine with vagrant for do kata exercises in PHP.
 	```
 	vagrant ssh
 	```
-
-5. Go to kata folder in the vagrant machine
-	```
-	cd /kata
-	```
-6. Launch the test
+5. Launch the test
 	
 	```
-	./vendor/bin/phpunit ./test/
+	/kata/vendor/bin/phpunit --configuration /kata/phpunit.xml /kata/test
 	```
-7. Now, you can start the kata in your host machine in ```/path/where/clone/repository/kata```and execute the test like step 6.
+6. Now, you can start the kata in your host machine in ```/path/where/clone/repository/kata```and execute the test like step 5.
 
 ---
 ##Steps to Stop
