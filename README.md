@@ -28,6 +28,7 @@ Virtual machine with vagrant for do kata exercises in PHP.
 	vagrant up
 	```
 4. Connect with SSH to vagrant machine
+	
 	```
 	vagrant ssh
 	```
