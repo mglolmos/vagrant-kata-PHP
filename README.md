@@ -1,7 +1,7 @@
 
 **Vagrant kata PHP**
 ===================
-Virtual machine with vagrant for do kata exercises in PHP.
+Virtual machine with vagrant to do kata coding exercises in PHP.
 
 ##Steps to Start
 1. Clone repository
